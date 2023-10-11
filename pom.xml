@@ -16,6 +16,15 @@
     </dependency>
   </dependencies>
   <build>
+      <pluginManagement>
+        <plugins>
+          <plugin>
+              <groupId>org.codehaus.sonar</groupId>
+              <artifactId>sonar-maven-plugin</artifactId>
+              <version>3.0.2</version>
+          </plugin>
+        </plugins>
+    </pluginManagement>
     <finalName>dev-javaweb</finalName>
   </build>
 </project>
